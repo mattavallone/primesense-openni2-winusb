@@ -1,6 +1,7 @@
 # PrimeSense OpenNI2 WinUSB Runtime
 
-This project builds an app-local OpenNI2 PS1080 sensor plugin that uses the
+Recently, Windows 11 began enforcing updated signed drivers for all devices. This means the old driver for the PrimeSense depth camera is no longer supported.
+I switched to the generic windows USB driver and built this app-local OpenNI2 PS1080 sensor plugin that uses the
 Windows-provided WinUSB driver. It does not install or replace a Windows kernel
 driver. It is intended for compatible PrimeSense PS1080 devices, including the
 USB `VID_1D27&PID_0601` device tested with this transport.
